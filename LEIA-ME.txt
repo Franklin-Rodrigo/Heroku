@@ -1,0 +1,19 @@
+Banco de Dados: 
+
+CREATE TABLE `report2` (
+ `id` int(11) NOT NULL AUTO_INCREMENT,
+ `name` varchar(255) DEFAULT NULL,
+ `whatsapp` varchar(255) DEFAULT NULL,
+ `r_adress` varchar(255) DEFAULT NULL,
+ `title` varchar(266) DEFAULT NULL,
+ `descript` varchar(266) DEFAULT NULL,
+ `imgdir` varchar(255) DEFAULT NULL,
+ PRIMARY KEY (`id`)
+) 
+
+Dê um CTRL + F e localiza 'mysql' , altere para 'pgsql'
+Para modificar o banco de dados do aplicativo, navegue até a pasta: ./buraki/connection/ 
+Edite o arquivo ./connection.class.php com as informações do novo Banco de Dados/SGDB
+
+pronto.
+

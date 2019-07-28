@@ -1,0 +1,71 @@
+
+<!DOCTYPE html5>
+<html>
+<head>
+	<title>BurAKi</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device -width, initial-scale=1">
+	<link href="http://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+</head>
+<body>
+
+
+ 
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class='navbar-brand' href='#'></a>
+        <button class='navbar-toggler' type='button' data-toggle='collapse' data-target='#navbarTogglerDemo02' aria-controls='navbarTogglerDemo02' aria-expanded='false' aria-label='Toggle navigation'>
+          <span class='navbar-toggler-icon'></span>
+        </button>
+        <div class='collapse navbar-collapse' id='navbarTogglerDemo02'>
+          <ul class='navbar-nav mr-auto mt-2 mt-lg-0'>
+            <li class='nav-item active'>
+              <a class='nav-link' href='#'>Login <span class='sr-only'>(current)</span></a>
+            </li>
+            <li class='nav-item active'> <a class='btn btn-secondary' href='#'> Registre-se! </a></li>
+      
+          </ul>
+      
+       <center> <img src='burakilogo.jfif' width='60px' height='60px'></center>
+        </div>
+      </nav>
+      <div class='container' style="width: 55vh">
+      <form class='text-center border border-light p-5' method='post' action='cadastro/' enctype='multipart/form-data'>
+        <p class='h4 mb-4'>Relate um problema</p>
+        <!-- Name -->
+        <input required name='name' type='text' id='defaultContactFormName' class='form-control mb-4' placeholder='Como se chama?'>
+        <!-- Email -->
+          <input required name='whatsapp' type='number'  class='form-control mb-4' placeholder='WhatsApp'>
+        <!-- Subject -->
+    
+        <select required name='category' class='browser-default custom-select mb-4'>
+            <option value='' selected>Categoria</option>
+            <option value='Asfalto'>Asfalto</option>
+            <option value='Calçadas'>Calçadas</option>
+            <option value='Sinalização'>Sinalização</option>
+            <option value='outros'>Outros</option>
+            
+            
+        </select>
+        <!-- Message -->
+        <input required name='title' type='text' id='defaultContactFormName' class='form-control mb-4' placeholder='Breve Título'>
+        <input required name='r_adress' type='text' id='defaultContactFormName' class='form-control mb-4' placeholder='Endereço do Problema'>
+        <div class='form-group'>
+
+            <textarea name='descript' class='form-control rounded-0' id='exampleFormControlTextarea2' rows='3' placeholder='Descrição do Problema, ponto de referencia para endereço.'></textarea>
+        </div>
+        <!-- Copy -->
+       Escolha uma imagem para ilustrar o problema > <input class='form-control' required type='file' name='fileToUpload' id='fileToUpload'>
+      
+<br>
+        <!-- Send button --><br>
+        <button class='btn btn-info btn-block' type='submit'>OK</button> 
+    </form>
+</div>
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+</body>
+</html>
